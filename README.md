@@ -13,6 +13,12 @@ If the server is down, the bot can't do anything (He sleeps)
 ## Usage
 See the two directories, `bot_a`, for your main bot, and `bot_b` for the checker
 
+### Intents
+⚠️ Important informations about intents
+You need to activate Presence intent for your bot - the checker - in discord developper portal
+![Discord Authorization flow](https://media.discordapp.net/attachments/976356791451529236/1027178006982185121/unknown.png?width=1053&height=671)
+![Discord Presence Intent](https://media.discordapp.net/attachments/976356791451529236/1027178007376433152/unknown.png?width=1440&height=154)
+
 ## Handler
 The handler used for `bot_b` is mine (check at [this adress](https://github.com/Greensky-gs/event-handler))
 
