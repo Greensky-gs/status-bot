@@ -11,7 +11,11 @@ Because if bot A crashes, the server will be down.
 If the server is down, the bot can't do anything (He sleeps)
 
 ## Usage
-See the two directories, `bot_a`, for your main bot, and `bot_b` for the checker
+Take the code that is in `container` and use it (simple as this)
+
+### Dependencies
+Use `npm install` or `yarn install` to install dependencies
+Then, start the bot (after completed the .env file [see [.env.example](./.env.example)])
 
 ### Intents
 ⚠️ Important informations about intents
@@ -20,7 +24,7 @@ You need to activate Presence intent for your bot - the checker - in discord dev
 ![Discord Presence Intent](https://media.discordapp.net/attachments/976356791451529236/1027178007376433152/unknown.png?width=1440&height=154)
 
 ## Handler
-The handler used for `bot_b` is mine (check at [this adress](https://github.com/Greensky-gs/event-handler))
+The handler used for `container` is mine (check [this repository](https://github.com/Greensky-gs/event-handler))
 
 ## Contact
 If you need to contact me, come on [this discord server](https://discord.gg/fHyN5w84g6)
