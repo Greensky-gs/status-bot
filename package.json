@@ -1,0 +1,11 @@
+{
+  "name": "status-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Greensky-gs/status-bot.git",
+  "author": "Greensky <david.hesliere@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.5.0"
+  }
+}
