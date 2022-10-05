@@ -1,7 +1,7 @@
-const { Client } = require('discord.js');
+const { User } = require('discord.js');
 
 /**
- * @param {Client} bot
+ * @param {User} bot
  * @param {'online' | 'offline'} state 
  */
 module.exports = (bot, state) => {
